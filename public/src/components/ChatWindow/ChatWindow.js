@@ -14,6 +14,7 @@ export default class ChatWindow extends Component {
     this.state = {
       messages: [],
       text: ''
+      
     };
 
     this.handleChange = this.handleChange.bind( this );
